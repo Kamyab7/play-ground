@@ -21,6 +21,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "api-auth", "api-auth", "{32
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiKeySample", "api-auth\ApiKeySample\ApiKeySample.csproj", "{609FAE40-4B9C-4017-BA72-E05B3DD763B0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiAuthJwt", "api-auth\ApiAuthJwt\ApiAuthJwt.csproj", "{70020DB7-B8B1-4047-A9E1-A93E97E9DE56}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +49,10 @@ Global
 		{609FAE40-4B9C-4017-BA72-E05B3DD763B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{609FAE40-4B9C-4017-BA72-E05B3DD763B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{609FAE40-4B9C-4017-BA72-E05B3DD763B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70020DB7-B8B1-4047-A9E1-A93E97E9DE56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70020DB7-B8B1-4047-A9E1-A93E97E9DE56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70020DB7-B8B1-4047-A9E1-A93E97E9DE56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70020DB7-B8B1-4047-A9E1-A93E97E9DE56}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -57,6 +63,7 @@ Global
 		{CD4DFE42-54C6-4A74-A673-B43287194AE0} = {367D2A95-F46F-4EFF-95D4-21E6A86E2E49}
 		{08600BFA-D38E-4769-B9FE-239FE707A571} = {3D36BA82-47F8-4AFD-A8B6-9F24E6CE0032}
 		{609FAE40-4B9C-4017-BA72-E05B3DD763B0} = {3272C76D-8C1A-4966-9F74-1A30588ECCC9}
+		{70020DB7-B8B1-4047-A9E1-A93E97E9DE56} = {3272C76D-8C1A-4966-9F74-1A30588ECCC9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7FAE317F-94F6-4992-BDA3-E7F5AB6E033A}
